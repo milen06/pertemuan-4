@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@100..900&display=swap');
+
+body {
+    height: 2000px;
+    background-color: rgb(46, 43, 43);
+}
+h1{
+    font-family: "Noto Sans Thai", sans-serif;
+}
+
+/* .fa-user {
+    font-size: 24px;
+    color: blue;
+} */
+
+/* .content {
+    background-color: pink;
+    display:  inline-block; 
+    width: 100px;  
+} */
+
+/* .content.satu {
+    /* position: relative;  */
+    /* position: absolute; */
+    /* position: fixed;
+    top: 200px; */
+    /* margin-right: 50px; */
+/* } */
+
+/* .btn {
+    background-color: purple;
+    transition: 0.5s;
+}
+
+.btn:hover {
+    background-color: pink;
+}
+
+.btn:focus {
+    border: 5px solid red;
+} */
+
+.btn {
+    background: none;
+    color: yellow;
+    border: none;
+    border: 1px solid yellow;
+    font-size: 5px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: yellow;
+    color: black;
+}
+
+.btn:focus {
+    border: 3px solid yellow;
+}
+
+.btn.dua {
+    background: none;
+    color:purple;
+    border: none;
+    border: 1px solid purple;
+    font-size: 5px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.btn.dua:hover {
+    background-color: purple;
+    color: black;
+}
+
+.btn.dua:focus {
+    border: 3px solid purple;
+}
